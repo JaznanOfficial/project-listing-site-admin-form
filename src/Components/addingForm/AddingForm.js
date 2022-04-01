@@ -6,7 +6,7 @@ const AddingForm = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = (data,e) => {
         console.log(e)
-        fetch('http://localhost:5000/lists',{
+        fetch('https://whispering-sierra-50046.herokuapp.com/lists',{
             method: "POST",
             headers: {
                 "content-type": "application/json",
