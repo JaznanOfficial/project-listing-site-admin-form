@@ -1,0 +1,31 @@
+button {
+    color: #fff;
+    display: block;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #fe1a00;
+    border: 2px solid #fe1a00;
+    transition: all 0.3s ease;
+  }
+
+input{
+  height: 100%;
+  width: 100%;
+  border: 3px solid tomato;
+  border-radius: 5px;
+  outline: none;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  margin-bottom: 5px;
+}
+input:focus{
+  border-color: #b3b3b3;
+}
